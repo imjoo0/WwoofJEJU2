@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body{
+    background-color: #eee7ca;
+    font-family: 'Patua One','Jua', sans-serif,cursive;
+}
+#header{
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    font-weight: bold;
+}
+#header div a.logo{
+    display: block;
+    float: left;
+    width: 11em;
+    height: 100%;
+    margin: 0 0 0 0.5em;
+    padding: 0;
+}
+#header div a.logo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header ul{
+    display:inline-block;
+    float: right;
+    list-style: none outside none;
+    width: 70%;
+    height: 100%;
+    text-decoration-color: black;
+}
+#header ul li{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+}
+#header ul li:first-child{
+    padding: 0;
+}
+#header ul li a{
+	font-family: inherit;
+	line-height: 0.7em;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+}
+#header ul li a:hover, #header ul li.menu ul li a:hover{
+    color: orange;
+}
+#header ul li.menu {
+	min-height: 3em;
+	z-index: 80;
+}
+#header ul li.menu ul.primary {
+	display: block;
+	float: none;
+    left: -9999em;
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 2em;
+	width: 13em;
+    z-index: 90;
+}
+#header ul li.menu ul li a{
+    display: block;
+    padding: 0.5em 0 0.5em 2.5em; 
+    color: black;
+}
+#header ul li.menu:hover ul.primary, #header ul li.menu ul#selected.primary {
+	left: 53em;
+}
+#header ul li.menu:hover ul.secondary, #header ul li.menu ul#selected.secondary {
+	left: -2.7em;
+}
+#header ul li button{
+    background-color: #f1c34a;
+    border: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    color: black;
+    padding: 11px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: inherit;
+    margin: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+#header ul li button a:hover{
+    color: rgb(3, 97, 3);
+}
+/*--------------------body------------------------------------*/
+#body div{
+    position: absolute;
+    display:block;
+    background-color:inherit;
+    width: 30%;
+    height: 30%;
+    margin-top: 8em;
+    margin-left: 10em;
+}
+#body div h1.title-small{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+#body div.explain button#start{
+    background-color: #f1c34a;
+    border: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+#body div.explain button#start:hover{
+    color: rgb(3, 97, 3);
+}
