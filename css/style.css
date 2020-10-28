@@ -33,6 +33,7 @@ div.background{
     height: 100%;
     margin: 0 0 0 0.5em;
     padding: 0;
+    text-decoration: none;
 }
 #header div a.logo img{
     display: block;
@@ -40,6 +41,11 @@ div.background{
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+#header div a.logo h1{
+    color: black;
+    margin-left: 0.5em;
 }
 #header ul{
     display:inline-block;
@@ -167,6 +173,22 @@ div.background{
     margin-top: 1.5em;
     margin-left: 3.3em;
 }
+#body div.keyval div.play{
+    position: absolute;
+    display: inline-block;
+    width: 26em;
+    height:100%;
+    margin-top: 1.3em;
+    margin-left: 3.3em;
+}
+#body div.keyval div.love{
+    position: absolute;
+    display: inline-block;
+    width: 26em;
+    height:100%;
+    margin-top: 1.3em;
+    margin-left: 32.3em;
+}
 #body div#YTB{
     position: absolute;
     margin-top: 60em;
@@ -229,8 +251,26 @@ div.background{
     position: absolute;
     margin-top: 29em;
 }
-#body div.introduce div.sticker{
-    width: 20em;
-    height: 30em;
-    background-color: blue;
+
+#body img.sticker{
+    display: block;
+    width: 15%;
+    position:absolute;
+    margin-left: 77em;
+    margin-top: 222em;
+}
+#body div.sc-gqjmRU h2.title-xsmall{
+    font-size: 52px;
+    margin-left: 12em;
+}
+#body div.sc-gqjmRU div.sunurum{
+    font-size: 28px;
+    margin-left: 11em;
+    margin-top: -1.5em;
+}
+#body div.sc-gqjmRU div.sunurum b{
+    font-size: 35px;
+    margin-left: 0.5em;
+    margin-right:  0.5em;
+    color: green;
 }
